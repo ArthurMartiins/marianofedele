@@ -1,0 +1,34 @@
+.after-bordo:after {
+  background-color: #85242d;
+}
+.bordo {
+  background-color: #85242d;
+  border-color: #85242d;
+}
+.bordo:hover {
+  background-color: #000000;
+  border-color: #000000;
+}
+.text-white {
+  color: white;
+}
+.text-white:hover {
+  color: #85242d;
+}
+.hover-bordo:hover {
+  color: #85242d !important;
+}
+
+@font-face {
+  font-family: "langdon";
+  src: url("../fonts/Langdon.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "mocha-mattari";
+  src: url("../fonts/Mocha_Mattari.otf") format("truetype");
+}
+
+.titulo-db {
+  font-family: mocha-mattari;
+}
